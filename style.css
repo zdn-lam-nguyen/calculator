@@ -4,6 +4,11 @@ body{
     align-items: center;
     height: 80vh;
 }
+.input{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
 .calculator{
     background-color: #2f495c;
     width: 280px;

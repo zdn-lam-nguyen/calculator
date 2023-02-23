@@ -1,9 +1,7 @@
 class Calculator{
     constructor(){
-         this.input = document.getElementById("input");
-        this.button = document.querySelectorAll(".buttonX");
-        this.result = 0;
-        this.string = '';
+        this.input = document.getElementById("input");
+        this.button = document.querySelectorAll(".button");
     }
 
     init(){
@@ -24,25 +22,8 @@ class Calculator{
     }
 }
     const calculator = new Calculator();
-    calculator.init();
+    calculator.init();  
 
 
 
-    // add(num){
-    //     this.value += num;
-    // }
-    // subtract(num){
-    //     this.value -= num;
-    // }
-    // multiply(num){
-    //     this.value *= num;
-    // }
-    // divide(num){
-    //     this.value /= num;
-    // }
-    // clear(){
-    //     this.value = 0;
-    // }
-    // showValue(){
-    //     console.log(this.value);
-    // }
+    

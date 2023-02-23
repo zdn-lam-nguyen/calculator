@@ -1,18 +1,9 @@
-//Start
-
 var input = document.getElementById("input");
-// var result = document.getElementById("result");
-// var clear = document.getElementById("clear");
-// var show = false;
-// var number = document.querySelectorAll(".numbers div");
-// var operator = document.querySelectorAll(".operators div")
+var button = document.querySelectorAll(".button");
+var lenghtListButton = button.length;
 
-var button = document.querySelectorAll(".buttonX");
-
-
-for (var i = 0; i < button.length; i++) {
+for (var i = 0; i < lenghtListButton; i++) {
     button[i].addEventListener("click", function(e) {
-        console.log(e.target.innerHTML)
         switch(e.target.innerText) {
             case "C":
                 input.innerHTML = "";
@@ -26,8 +17,24 @@ for (var i = 0; i < button.length; i++) {
     });
 }
 
+// ----------------------------
+
+// save the button.length to a variable (v)
+// add try-catch
+// meaningful variable names (v)
+// fix -- ++ in calculation (v)
+
+// ----------------------------
 
 
+
+
+
+// var result = document.getElementById("result");
+// var clear = document.getElementById("clear");
+// var show = false;
+// var number = document.querySelectorAll(".numbers div");
+// var operator = document.querySelectorAll(".operators div")
     //     var current = input.innerHTML;
     //     var last = current[current.length - 1];
 
